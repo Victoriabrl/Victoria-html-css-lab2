@@ -1,0 +1,128 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Contact US Page</title>
+    
+    
+</head>
+
+<body>
+    <div class="container">
+    <header>
+        <img src="./assets/images/su_banner.gif" alt="Banner gif">
+        <!--
+        The banner image (su_banner.gif) has to be here
+        [Check point 3 part 1] 
+        -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About US</a>
+                </li>
+                <li>
+                    <a href="./service.html">Our Services</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact US</a>
+                </li>
+                
+            </ul>
+        
+        </nav>
+    </header>
+    
+    <main class="content">
+       <h2> Contact us </h2>
+        <br>
+
+        <form>
+            <fieldset>
+                <legend>Personal Information :</legend> 
+                <label for="firstName">First Name:* </label>
+                <input type="text" id="firstName" name="firstName" required maxlength="25">
+                <br><br>
+
+
+                <label for="lastName">Last Name:* </label>
+                <input type="text" id="lastName" name="lastName" required maxlength="25">
+                <br><br>
+
+
+                <label for="email">Email:* </label>
+                <input type="email" id="email" name="email" required maxlength="35">
+                <br><br>
+
+
+                <p>Please select the music genre(s) that you like:</p>
+                    <input type="checkbox" id="classic" name="genre" value="Classic">
+                    <label for="classic">Classic</label><br>
+                    
+                    <input type="checkbox" id="jazz" name="genre" value="Jazz">
+                    <label for="jazz">Jazz</label><br>
+                    
+                    <input type="checkbox" id="blues" name="genre" value="Blues">
+                    <label for="blues">Blues</label><br>
+                    
+                    <input type="checkbox" id="instrumental" name="genre" value="Instrumental">
+                    <label for="instrumental">Instrumental</label><br>
+            </fieldset>
+
+
+           
+                <fieldset>
+                  <legend>Your Message</legend>
+              
+                  <label for="how-hear">How did you hear about us?</label>
+                  <select id="how-hear" name="how-hear">
+                    <option value="website">Our Website</option>
+                    <option value="friend">A Friend</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="social-media">Social Media</option>
+                  </select>
+              
+                  <br><br>
+              
+                  <label>Would you recommend us to your friends?</label>
+                  <input type="radio" id="yes" name="recommend" value="yes" checked>
+                  <label for="yes">Yes</label>
+                  <input type="radio" id="no" name="recommend" value="no">
+                  <label for="no">No</label>
+                  <input type="radio" id="maybe" name="recommend" value="maybe">
+                  <label for="maybe">Maybe</label>
+              
+                  <br><br>
+              
+                  <label for="request">Your request:</label>
+                  <textarea id="request" name="request" rows="4" cols="50"></textarea>
+              
+                  <br><br>
+              
+                  <input type="checkbox" id="email-updates" name="email-updates" checked>
+                  <label for="email-updates">Sign me up for email updates</label>
+              
+                  <br><br>
+              
+                  <input type="submit" value="Register">
+                </fieldset>
+              
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.4699587436573!2d-79.3896528!3d43.6714689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b71da32dd%3A0x2b0ff24b76395f19!2sFour%20Seasons%20Spa!5e0!3m2!1sen!2sca!4v1726699185681!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+              
+        </form>
+
+        
+    </main>
+    <br>
+
+    <footer>
+        Copyright © 2024 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Victoria BREULING - All rights 
+reserved
+    <!-- place the footer content here -->
+    </footer>
+ </div>
+</body>
+</html>
